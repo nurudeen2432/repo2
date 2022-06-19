@@ -67,7 +67,86 @@
 }
 
 @media screen and (min-width:1440px){
+    
+body{
+font-family: 'Lexend Deca', sans-serif;
+    background: hsl(0, 100%, 74%);
+    background-image: url('bg-intro-desktop.png');
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 70px;
+    grid-auto-rows: minmax(300px, auto);
+    overflow-y: hidden;
+}
 
+
+.col{
+    color: #fff;
+    font-weight: 700;
+    margin: 200px 70px;
+}
+.col-1{
+    margin: 150px 50px;
+
+}
+.button{
+    left:463px;
+    bottom: 435px;
+
+    position: relative;
+    float: right;
+}
+.form{
+    margin: 120px 60px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px 10px;
+
+}
+#name{
+    font-weight: bold;
+        border-radius: 5px;
+        height: 30px;
+        padding: 5px 5px;
+        margin: 8px 30px;
+        width: 87%;
+        border: 1px solid grey;
+}
+.claim{
+            background-color: hsl(154, 59%, 51%);
+                margin: 10px 30px;
+                width: 88%;
+                height: 45px;
+                color: #fff;
+                font-family: 'Lexend Deca',
+                    sans-serif;
+                border: 0;
+                border-radius: 5px;
+}
+#b {
+    color: hsl(0, 100%, 74%);
+}
+
+.txt {
+    color: grey;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+    
+        .button>button {
+            font-family: 'Lexend Deca',
+                sans-serif;
+            color: #fff;
+            padding: 5px 40px;
+            height: 38px;
+            width: 154%;
+            border: 0;
+            text-align: center;
+            background-color: hsl(248, 32%, 49%);
+            border-radius: 5px;
+        }
+}
 /*body{
 font-family: 'Lexend Deca', sans-serif;
     background: hsl(0, 100%, 74%);
@@ -147,7 +226,7 @@ font-family: 'Lexend Deca', sans-serif;
             border-radius: 5px;
         }
 
-}
+
 
 
 
